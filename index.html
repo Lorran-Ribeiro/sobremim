@@ -13,85 +13,93 @@
 
       <nav class="menu">
         <ul>
-          <li><a href="#Inicio">Início</a></li>
-          <li><a href="#Meio">Meio</a></li>
-          <li><a href="#Fim">Fim</a></li>
+          <li>
+            <a href="#inicio" title="Volta ao ínicio da página"
+              >Página Inicial</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
     <main class="gridcelular">
       <section>
-        <article>
-          <h2 class="moveh2">Olá meu nome é Lorran</h2>
+        <article class="apresentando">
+          <h2 id="inicio" class="moveh2">Olá meu nome é Lorran</h2>
           <p class="p1">
-            Este é um site introdutório onde apresento um pouco sobre mim, meus
-            <a href="#interesses"><strong>interesses</strong>,</a> hobbies e
-            demais assuntos, sou apenas uma pessoa tranquila.
+            Este é um site introdutório onde apresento um pouco sobre mim e meus
+            <a href="#interesses" title="Interesses do desenvolvedor">
+              <strong>interesses</strong></a
+            >, atualmente sou um aluno que está atuando como desenvolvedor
+            <a
+              href="https://aws.amazon.com/pt/what-is/full-stack-development/"
+              title="Página da AWS Amazon explicando a carreira de um desenvolvedor Full-stack"
+              target="_blank"
+              ><strong>Full-stack</strong></a
+            >
           </p>
         </article>
         <img
-          class="imgcarinha"
-          src="./img/umcaratranquilo.jpg"
-          alt="Para você que tem deficiência visual é só uma imagem do meme do cara tranquilo."
-        /><br />
+          class="imgfoto"
+          src="./img/Foto.jpg"
+          alt="Uma foto do desenvolvedor do site."
+        />
         <h3 id="interesses">Meus interesses atuais</h3>
-        <br />
+
         <ul>
-          <li>
-            <p class="interessestexto">Desenvolvimento em T.I</p>
+          <li class="interesse">
             <img
-              class="centroimg"
+              class="texturasimg"
               src="./img/desenvolvimento.jpg"
               alt="Uma imagem com um notebook e vários códigos na tela representando o desenvolvimento em T.I"
             />
+            <p class="estilo">Desenvolvimento em T.I</p>
           </li>
-          <li>
-            <p class="interessestexto">Cibersegurança</p>
+          <li class="interesse">
             <img
-              class="centroimg"
+              class="texturasimg"
               src="./img/SOC.jpg"
               alt="Uma Imagem representando o SOC(Security Operation Center) em Cibersegurança. (Imagem editada por IA)"
             />
+            <p class="estilo">Cibersegurança</p>
           </li>
-          <li>
-            <p class="interessestexto">Aperfeiçoar mais e mais em lógica.</p>
+          <li class="interesse">
             <img
-              class="centroimg"
+              class="texturasimg"
               src="./img/Lógica.jpg"
               alt="Uma imagem em cartoon representando o pensamento conectado a um computador com vários 0 e 1(números Binários)"
             />
+            <p class="estilo">Melhorar em Lógica.</p>
           </li>
-          <li>
-            <p class="interessestexto">
-              Ler livros de preferência um que me chame a atenção.
-            </p>
-
+          <li class="interesse">
             <img
-              class="centroimg"
+              class="texturasimg"
               src="./img/Livro.jpg"
               alt="Uma imagem com um fundo azul e um livro na cor marrom. (Imagem feita por IA)"
             />
-          </li>
-          <li>
-            <p class="interessestexto">
-              Praticar Japonês, conseguir ouvir e falar em 6 meses.
+            <p class="estilo">
+              Ler livros de preferência um que me chame a atenção.
             </p>
+          </li>
+          <li class="interesse">
             <img
-              class="centroimg"
+              class="texturasimg"
               src="./img/Japones.Jpg"
               alt="Uma imagem cartoon de uma coruja verde chamada Duolingo apresentando o idioma Japonês"
             />
+            <p class="estilo">
+              Praticar Japonês, conseguir ouvir e falar em 6 meses.
+            </p>
           </li>
         </ul>
+        <aside>
+          <a href="https://www.linkedin.com/in/lorran-r/" target="_blank"
+            ><img
+              class="social"
+              src="./img/linkedin.jpg"
+              alt="Uma imagem com a letra i em cima de um fundo azul representando o linkedin, uma das maiores empresa de network no mundo dos negócios"
+          /></a>
+        </aside>
       </section>
     </main>
-    <footer>
-      <a href="https://www.linkedin.com/in/lorran-r/" target="_blank"
-        ><img
-          class="social"
-          src="./img/linkedin.jpg"
-          alt="Uma imagem com a letra i em cima de um fundo azul representando o linkedin, uma das maiores empresa de network no mundo dos négocios"
-      /></a>
-    </footer>
   </body>
 </html>
