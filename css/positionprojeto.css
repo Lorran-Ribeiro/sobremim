@@ -78,8 +78,11 @@ a:hover{
   width: 400px;
 }
 
+/* clamp(min,ideal,max) */
+
 .p1 {
   padding-bottom: 5px;
+font-size: clamp(12px,2vw,20px);
 }
 
 h3 {
@@ -129,6 +132,7 @@ h3 {
   background-color: #ebe5e9;
   text-align: center;
   text-decoration: none;
+  cursor: pointer;
   
 }
 
