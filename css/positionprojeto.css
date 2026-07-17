@@ -153,9 +153,12 @@ h3 {
     gap: 30px;
 }
 
-@media(min-width:768px){
+@media(max-width:468px){
+ h3{
+  margin:  auto;
+  text-align: center;
+ }
+ }
+  
 
-}
 
-@media(min-width:1024px){
-}
