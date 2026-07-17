@@ -114,11 +114,15 @@ h3 {
 
 .interesse {
   display: flex;
-  gap: 6px;
+  flex-direction: column;
+  gap: 15px;
   align-items: center;
-  width: fit-content;
-  margin-inline: 40%;
-  margin-bottom: 100px;
+  width: 100%;
+  margin-inline: 0;
+  border-radius: 20px;
+  padding: 20px;
+  
+ 
   
 }
 
@@ -147,4 +151,22 @@ h3 {
   border-radius: 30px;
   
   border: solid 4px #000000;
+}
+
+.container-produtos{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+@media(min-width:768px){
+    .container-produtos{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width:1024px){
+    .container-produtos{
+        grid-template-columns: repeat(3,1fr);
+    }
 }
