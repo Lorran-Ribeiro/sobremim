@@ -61,13 +61,13 @@ section {
 }
 
 
-a{
+.p1 .p1destaquetexto{
   
   text-decoration: none;
   color: #0019fa;
 }
 
-a:hover{
+.p1 .p1destaquetexto:hover{
   text-decoration: underline;
 }
 
@@ -141,7 +141,8 @@ h3 {
 
 
 
-.interesse .estilo {
+ .estilo {
+ display: block;
   width: 200px;
   border: outset 5px #b85f63;
   border-radius: 25px;
@@ -153,10 +154,17 @@ h3 {
   
   
 }
+  li p a{
+  text-decoration: none;
+  color: #000000
+}
+
+
 
 .estilo:hover{
   color: red;
   transform: scale(1.05);
+  background-color: #f5f7fa;
 }
 
 
